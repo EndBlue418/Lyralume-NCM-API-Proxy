@@ -1,0 +1,22 @@
+{
+  "name": "lyralume-ncm-api-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node --test",
+    "vercel-build": "node scripts/build-source.js",
+    "start": "node server.js",
+    "pretest": "node scripts/build-source.js"
+  },
+  "dependencies": {
+    "jpeg-js": "0.4.4",
+    "node-fetch": "^2.6.7",
+    "pngjs": "7.0.0",
+    "redis": "^5.12.1",
+    "xml-js": "1.6.11"
+  },
+  "license": "AGPL-3.0-only",
+  "engines": {
+    "node": "24.x"
+  }
+}

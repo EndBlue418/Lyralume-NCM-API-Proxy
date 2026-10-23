@@ -1,0 +1,6 @@
+{
+  "functions": {
+    "api/udon.js": { "maxDuration": 60 },
+    "api/cover.js": { "maxDuration": 30 }
+  }
+}

@@ -1,0 +1,13 @@
+node_modules/
+.vercel/
+.env
+.env.*
+!.env.example
+api/source-bundle.json
+coverage/
+*.log
+*.key
+*.pem
+*.pfx
+.DS_Store
+Thumbs.db

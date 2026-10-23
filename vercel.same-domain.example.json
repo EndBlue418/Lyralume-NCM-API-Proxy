@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/udon.js": { "maxDuration": 60 },
+    "api/cover.js": { "maxDuration": 30 }
+  },
+  "rewrites": [
+    { "source": "/netease", "destination": "https://your-ncm-api.vercel.app/" },
+    { "source": "/netease/:path*", "destination": "https://your-ncm-api.vercel.app/:path*" }
+  ]
+}
